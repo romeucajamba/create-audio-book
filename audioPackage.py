@@ -1,7 +1,7 @@
 import os
 from gtts import gTTS
 
-def createAudio(text_file, output_file):
+def createAudioBook(text_file, output_file):
     with open(text_file, 'r', encoding='utf-8') as file:
         
         text = file.read()
@@ -12,3 +12,6 @@ def createAudio(text_file, output_file):
     
 text_file = "clcodingtxt.txt"
 output_file = "audiobookconvert.mp3"
+
+createAudioBook(text_file, output_file)
+os.system(f"start {output_file}")
