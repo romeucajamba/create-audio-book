@@ -1,3 +1,4 @@
-helo!
-How are you today??
-My name is Romeu! What is your?
+hello!
+My name is Romeu! What is your name?
+How are you today?
+Can we be friends?
